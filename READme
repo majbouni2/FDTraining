@@ -1,7 +1,3 @@
-Capstone for Bash CMTP training
+This repository contains training projects and tests from FD.
 
-This was originally done on AVD/putty but there were issues with extracting the files so it was switched over to GitHub.
-
-Tab keys on the original text file were not converted properly, so all tab keys on the Raw Text file were changed to asterisk. 
-myscript.sh has further details in the comments.
 
