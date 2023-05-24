@@ -1,0 +1,9 @@
+If realtime data is not required for the Quants team, I should propose using batch mode framework to speed up the processing time. The way that this works is that sections of code would get uploaded and processed at a time instead of all at once.  
+
+If an entire batch mode set up is looking to be avoided, you can also ingest data in batch by adding a line of code like this in the algorithmic Q process: 
+
+ 
+batchsize:10000000 
+if[ count of data > batchsize; 
+created chunks of data 
+run the analytic between each chuck e.g. rows 0 - 1000000, then rows 1000001 to 200000 etc] 
