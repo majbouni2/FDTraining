@@ -1,0 +1,4 @@
+All data in the feeds is randomised unless specifically stated in the question.
+
+Deliverable 1 contains the feeds and deliverable 2 contains the remaining tickerplant architecture.
+
